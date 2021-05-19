@@ -468,7 +468,7 @@ public class ActivityTimeAttack extends Activity {
 				totalTime = 10;
 
 			} else {
-				numFilas = 2;	numCol = 2;		totalTime = 7;
+				numFilas = 2;	numCol = 2;		totalTime = 8;
 			}			
 			// * setupNiveles(false, true, getResources().getString(R.string.textoinfocolor1),R.drawable.color4, R.drawable.color4, false, 0, 3,2,11, 2,2,6);			
 			break;
@@ -476,9 +476,9 @@ public class ActivityTimeAttack extends Activity {
 			if (modo.equals("retocolores")) { // Hacer parejas de colores iguales.
 				isRelaciones = false;
 				indexColor1 = 0;
-				numFilas = 4;	numCol = 3; 	totalTime = 20;
+				numFilas = 4;	numCol = 3; 	totalTime = 29; //20;
 			} else {
-				numFilas = 3;	numCol = 2;		totalTime = 10;
+				numFilas = 3;	numCol = 2;		totalTime = 16; //10;
 			}
 			break;
 
@@ -488,9 +488,9 @@ public class ActivityTimeAttack extends Activity {
 				setVistaInformation(getResources().getString(R.string.textoinfocolor3),	R.drawable.color9, R.drawable.color9verde);
 				isRelaciones = true;
 				indexColor2 = 0;
-				numFilas = 4;	numCol = 3;		totalTime = 20;
+				numFilas = 4;	numCol = 3;		totalTime = 29; //20;
 			} else {
-				numFilas = 4;	numCol = 2;		totalTime = 13;
+				numFilas = 4;	numCol = 2;		totalTime = 16; //13;
 			}
 			break;
 		case 4:
@@ -499,9 +499,9 @@ public class ActivityTimeAttack extends Activity {
 				setVistaInformation(getResources().getString(R.string.textoinfocolor2),	R.drawable.color9, R.drawable.color9_rana);
 				isRelaciones = true;
 				indexColor2 = 1;
-				numFilas = 4;	numCol = 3;		totalTime = 24;
+				numFilas = 4;	numCol = 3;		totalTime = 35; //24;
 			} else {
-				numFilas = 5;	numCol = 2;		totalTime = 19;
+				numFilas = 5;	numCol = 2;		totalTime = 27; //19;
 			}
 			break;
 		case 5:
@@ -510,18 +510,18 @@ public class ActivityTimeAttack extends Activity {
 				setVistaInformation(getResources().getString(R.string.textoinfocolor4),	R.drawable.color7_rojo_verde,R.drawable.color7_verde_rojo);
 				isRelaciones = true;
 				indexColor2 = 2;
-				numFilas = 3;	numCol = 2;		totalTime = 10;
+				numFilas = 3;	numCol = 2;		totalTime = 16; //10;
 			} else {
-				numFilas = 4;	numCol = 3;		totalTime = 20;
+				numFilas = 4;	numCol = 3;		totalTime = 29;  //20;
 			}
 			break;
 		case 6:
 			if (modo.equals("retocolores")) { // Relacionar nombres pintados en/ colores con su opuesto (Ej nombre rosa pintado de blanco con nombre blanco pintado de rosa)
 				isRelaciones = true;
 				indexColor2 = 3;
-				numFilas = 4;	numCol = 3;		totalTime = 22;
+				numFilas = 4;	numCol = 3;		totalTime = 31; //22;
 			} else {
-				numFilas = 4;	numCol = 4;		totalTime = 32;
+				numFilas = 4;	numCol = 4;		totalTime = 42; //32;
 			}
 			break;
 
@@ -529,9 +529,9 @@ public class ActivityTimeAttack extends Activity {
 			if (modo.equals("retocolores")) { // relacionar colores con su nombre (Ej el color rosa con el nombre rosa)
 				isRelaciones = true;
 				indexColor2 = 8;
-				numFilas = 7;	numCol = 4;		totalTime = 40;
+				numFilas = 7;	numCol = 4;		totalTime = 54; //40;
 			} else {
-				numFilas = 5;	numCol = 4;		totalTime = 30;
+				numFilas = 5;	numCol = 4;		totalTime = 44; //30;
 			}
 			break;
 
@@ -539,9 +539,9 @@ public class ActivityTimeAttack extends Activity {
 			if (modo.equals("retocolores")) { // relacionar colores con objetos (Ej color azul con cielo)
 				isRelaciones = true;
 				indexColor2 = 9;
-				numFilas = 7;	numCol = 4;		totalTime = 40;
+				numFilas = 7;	numCol = 4;		totalTime = 54; //40;
 			} else {
-				numFilas = 6;	numCol = 4;		totalTime = 32;
+				numFilas = 6;	numCol = 4;		totalTime = 46; //32;
 			}
 			break;
 
@@ -549,9 +549,9 @@ public class ActivityTimeAttack extends Activity {
 			if (modo.equals("retocolores")) { // Relacionar nombres pintados en colores con su opuesto (Ej nombre rosa pintado de blanco con nombre blanco pintado de rosa)
 				isRelaciones = true;
 				indexColor2 = 4;
-				numFilas = 7;	numCol = 4;		totalTime = 42;
+				numFilas = 7;	numCol = 4;		totalTime = 58; //42;
 			} else {
-				numFilas = 7;	numCol = 4;		totalTime = 42;
+				numFilas = 7;	numCol = 4;		totalTime = 58; //42;
 			}
 			break;
 		case 10:
@@ -560,9 +560,9 @@ public class ActivityTimeAttack extends Activity {
 				setVistaInformation(getResources().getString(R.string.textoinfocolor5),	R.drawable.colornaranja13, R.drawable.colornaranja13);
 				isRelaciones = false;
 				indexColor1 = 1;
-				numFilas = 8;	numCol = 4;		totalTime = 47;
+				numFilas = 8;	numCol = 4;		totalTime = 66;//47;
 			} else {
-				numFilas = 6;	numCol = 5;		totalTime = 42;
+				numFilas = 6;	numCol = 5;		totalTime = 64;//42;
 			}
 			break;
 		case 11:
