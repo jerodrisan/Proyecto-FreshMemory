@@ -463,12 +463,10 @@ public class ActivityTimeAttack extends Activity {
 				setVistaInformation(getResources().getString(R.string.textoinfocolor1),	R.drawable.color4, R.drawable.color4);
 				isRelaciones = false;
 				indexColor1 = 0; // usamos este indice solo cuando isRelaciones==false y lo aumentamos en una unidad
-				numFilas = 3;
-				numCol = 2;
-				totalTime = 10;
+				numFilas = 3;	numCol = 2;		totalTime = 13; //10;
 
 			} else {
-				numFilas = 2;	numCol = 2;		totalTime = 8;
+				numFilas = 2;	numCol = 2;		totalTime =  10; //8;
 			}			
 			// * setupNiveles(false, true, getResources().getString(R.string.textoinfocolor1),R.drawable.color4, R.drawable.color4, false, 0, 3,2,11, 2,2,6);			
 			break;
