@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_botonmenu1"  
+     >
+     
+     <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="21sp"
+         android:textColor="@color/black"
+         android:text="@string/textoinfocolor"
+         android:layout_margin="4dp"
+         android:layout_marginTop="17dp"   
+         android:gravity="center_horizontal"
+       />
+     
+      <TextView 
+        android:id="@+id/text_infor_colores"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:text="color con color"
+        android:textSize="17sp"       
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"     
+        />
+      
+      
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"        
+        android:gravity="center_horizontal"
+         >
+         <ImageView 
+             android:id="@+id/imagen_infocolor1"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_marginLeft="23dp"
+             android:layout_marginRight="8dp"
+             android:src="@drawable/color4"
+             />
+         <ImageView 
+             android:layout_width="45dp"
+             android:layout_height="45dp"            
+             android:layout_marginRight="8dp"
+             android:src="@drawable/flechaderecha"
+             />
+         <ImageView 
+             android:layout_width="45dp"
+             android:layout_height="45dp"            
+             android:layout_marginRight="8dp"
+             android:src="@drawable/flechaderecha"
+             />
+           <ImageView 
+             android:id="@+id/imagen_infocolor2"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_marginLeft="8dp"
+             android:layout_marginRight="23dp"
+             android:src="@drawable/color4"
+             />         
+	</LinearLayout>
+	<Button 
+        android:id="@+id/ok_text_inforcolores"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="OK"   
+        android:textSize="21sp"    
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"      
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"  
+        />    
+	
+</LinearLayout>

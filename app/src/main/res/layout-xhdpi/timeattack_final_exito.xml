@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/linearmarcadorestimeattack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/fondo_timeattack"
+    >
+    
+     <TextView
+        android:id="@+id/text_levelcompleted"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"     
+        android:textColor="@color/silver"
+        android:textStyle="bold"
+        android:textSize="20sp"
+      	android:visibility="gone"
+	/>
+     
+      <TextView
+        android:id="@+id/text_felicidades"
+        android:layout_width="wrap_content"        
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"     
+        android:textColor="@color/silver"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:visibility="gone"
+        
+	  />
+      
+       <TextView
+        android:id="@+id/text_completado"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"     
+        android:textColor="@color/silver"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:visibility="gone"
+	/>
+     
+      <ImageView    
+        android:id="@+id/imagen_logosuperado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/boton_thumbsup" />
+      
+      
+       <LinearLayout
+        android:id="@+id/linearaciertossecuencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:gravity="center_vertical"
+        android:orientation="horizontal"   
+        android:visibility="gone"          
+         >
+
+        <TextView                 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"        
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="@string/aciertossecuencias"
+            android:textColor="@color/silver"
+            android:textSize="18sp"  
+            android:textStyle="bold"
+           
+            />
+
+        <TextView
+            android:id="@+id/marcador_aciertossecuencias"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="15dp"           
+            android:textColor="@color/silver"
+            android:textSize="18sp"
+            android:textStyle="bold"     
+           
+             />                    
+      </LinearLayout>
+      
+       <LinearLayout
+        android:id="@+id/linearNivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:gravity="center_vertical"
+        android:orientation="horizontal"   
+        android:visibility="gone"          
+         >
+
+        <TextView                 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"        
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="@string/nivelalcanzado"
+            android:textColor="@color/silver"
+            android:textSize="18sp"  
+            android:textStyle="bold"
+           
+            />
+
+        <TextView
+            android:id="@+id/marcador_nivelsecuencias"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="15dp"           
+            android:textColor="@color/silver"
+            android:textSize="18sp"
+            android:textStyle="bold"     
+           
+             />                    
+      </LinearLayout>
+    
+    
+      
+      <LinearLayout
+        android:id="@+id/linearpuntos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" 
+        android:visibility="gone"          
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="@string/puntos_modoclasico"
+            android:textColor="@color/silver"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/marcador_puntostimeattack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="15dp"           
+            android:textColor="@color/silver"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+       
+     </LinearLayout>
+     
+     <LinearLayout
+        android:id="@+id/lineartiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:gravity="center_vertical"
+        android:orientation="horizontal"    
+        android:visibility="gone"             
+         >
+
+        <TextView           
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"        
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="@string/tiempo_modoclasico"
+            android:textColor="@color/silver"
+            android:textSize="18sp"  
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/marcador_tiempototaltimeattack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="15dp"            
+            android:textColor="@color/silver"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+       
+    </LinearLayout>
+    
+      
+     <LinearLayout
+        android:id="@+id/lineartiemporestante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:gravity="center_vertical"
+        android:orientation="horizontal"  
+        android:visibility="gone"               
+         >
+
+        <TextView           
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"        
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="@string/tiempo_restante"
+            android:textColor="@color/silver"
+            android:textSize="18sp"  
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/marcador_tiemporestantetimeattack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="15dp"            
+            android:textColor="@color/silver"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+       
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearpuntostotales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:gravity="center_vertical"
+        android:orientation="horizontal"  
+        android:visibility="gone"               
+         >
+
+        <TextView           
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"        
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="@string/puntos_totales"
+            android:textColor="@color/silver"
+            android:textSize="18sp"  
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/marcador_puntostotalestimeattack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="15dp"           
+            android:textColor="@color/silver"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+       
+    </LinearLayout>
+     
+     <LinearLayout
+        android:id="@+id/linearpuntosacumulados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:gravity="center_vertical"
+        android:orientation="horizontal"  
+        android:visibility="gone"               
+         >
+
+        <TextView           
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"  
+            android:layout_weight="1"        
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="@string/puntos_acumulados"
+            android:textColor="@color/silver"
+            android:textSize="18sp"  
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/marcador_puntosacumuladostimeattack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="15dp"           
+            android:textColor="@color/silver"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+       
+    </LinearLayout>
+    
+     
+     
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"   
+        android:layout_marginRight="20dp"  
+        android:layout_marginLeft="20dp"   
+         >
+
+         <Button 
+            android:id="@+id/marcador_menu_timeattack"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:text="@string/volver"
+            android:textSize="19sp"          
+            android:textStyle="bold"
+            android:background="@drawable/fondo_botonclassic"           
+            />
+         <Button 
+       		android:id="@+id/marcador_timeattack_botonplay"
+        	android:layout_height="wrap_content"
+        	android:layout_width="0dp"
+        	android:layout_weight="1"
+        	android:layout_marginRight="10dp"
+        	android:padding="5dp"
+        	android:text="@string/siguiente"
+            android:textSize="19sp"                    	
+            android:textStyle="bold"  
+        	android:background="@drawable/fondo_botonclassic"      
+        />
+                  
+        
+    </LinearLayout>
+      
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"  
+        
+        >
+        <Button 
+          android:id="@+id/compartir_nivel"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/boton_shareit"
+          android:text="@string/compartir"           
+          android:textSize="19sp"
+          android:padding="5dp"
+          android:textStyle="bold"
+          android:layout_marginRight="20dp"
+          android:background="@drawable/fondo_botonclassic"           
+          />
+        
+        <Button 
+          	android:id="@+id/global_scores"
+          	android:layout_width="120dp"
+          	android:layout_height="wrap_content"          	
+          	android:drawableTop="@drawable/boton_leader"
+          	android:text="@string/boton_leaderboards"          	
+         	android:textSize="19sp"
+          	android:padding="5dp"
+          	android:textStyle="bold"
+          	android:background="@drawable/fondo_botonclassic"            
+             android:visibility="gone"
+                  
+          />        
+    </LinearLayout>     
+     
+    
+        
+      
+    
+
+</LinearLayout>

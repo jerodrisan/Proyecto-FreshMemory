@@ -1,0 +1,4 @@
+#Wed May 19 20:31:45 CEST 2021
+base.0=C\:\\Users\\chukk\\Desktop\\proyectos\\Fresh Memory\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,340 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:2:1-180:12
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6dbd62e2711d3d363e1cf39a971dcce9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\be1dc0e1720d2d3bb2667cdf157af71d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6f0d361f5806f827be07ecd66f59ebb0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\a2ba3eb3f101f5dd7e6a8fa5a3cef22b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bf53a6508c5a928659d26314adaf763f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\1c8145f8587f729ddc48caf38674be81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\66165c8eb9ae7014365260aaf5b553cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\9520291e6545361254da1b997fe0c529\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\21517ac2fab4b1effb3918f23f7bc934\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\898138766388870d39e4e36da1180573\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\abab81a21257c89eefee439a50892d85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\f7194b2ee8aac410b1a1d3a2922ab5b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\37153c81313ae26abd70064b10a78baf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\f28e5f8977c006d6f31f2ac14af6e457\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6d64661dc31ba808b5974b06051f83d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bab38781593a4f20590881330e8aa119\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\4cab7fa93ea42cf44cba154f977fb8b3\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\2f9a3914c6d730646853cf297aa584c8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\29a924a8ba5613e473cc17aacff11621\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\0e79e8d600dcb84d7e3a2b9b50aa4c4d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\1c4dc769feada7b2eeeacffe66071f9e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\39b52b3f28d51d5c7a9e9d8af2a56342\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\3205134775598a2ff9311f2a08b3c80f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\ad2b9f6af9018ed2234dbf6b0f5aff28\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\b31175fa8353431e75eba7a0a50e8f62\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\a654350b0bbad252882e0bb35ea166fc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\03867b514b5dfcea485e449ef8747e0b\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:2:1-180:12
+	package
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:9:5-14:11
+	android:largeScreens
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:12:9-37
+	android:xlargeScreens
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:10:9-37
+	android:anyDensity
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:13:9-34
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:17:22-76
+application
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:19:5-178:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bab38781593a4f20590881330e8aa119\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bab38781593a4f20590881330e8aa119\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\4cab7fa93ea42cf44cba154f977fb8b3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\4cab7fa93ea42cf44cba154f977fb8b3\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bab38781593a4f20590881330e8aa119\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:21:9-42
+	android:allowBackup
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:23:9-40
+activity#com.jesusmanuelrodriguez.freshmemory.ActivityTimeAttack
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:36:10-45:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:38:13-45
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:40:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:37:13-83
+intent-filter#action:name:com.example.a3_memoriongame.ModeTimeAttack+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:41:13-44:29
+action#com.example.a3_memoriongame.ModeTimeAttack
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:42:17-85
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:42:25-82
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:43:17-76
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:43:27-73
+activity#com.jesusmanuelrodriguez.freshmemory.ActivitySonidos
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:47:11-56:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:49:13-45
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:51:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:48:13-80
+intent-filter#action:name:com.example.a3_memoriongame.ActivitySonidos+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:52:13-55:29
+action#com.example.a3_memoriongame.ActivitySonidos
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:53:17-86
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:53:25-83
+activity#com.jesusmanuelrodriguez.freshmemory.ActivityClassic
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:58:10-67:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:61:14-50
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:60:13-45
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:62:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:59:13-80
+intent-filter#action:name:com.example.a3_memoriongame.ActivityClassic+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:63:13-66:29
+action#com.example.a3_memoriongame.ActivityClassic
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:64:17-86
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:64:25-83
+activity#com.jesusmanuelrodriguez.freshmemory.ActivityRelaciones
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:70:9-79:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:72:13-45
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:74:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:71:13-83
+intent-filter#action:name:com.example.a3_memoriongame.ActivityRelaciones+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:75:13-78:29
+action#com.example.a3_memoriongame.ActivityRelaciones
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:76:17-89
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:76:25-86
+activity#com.jesusmanuelrodriguez.freshmemory.ActivitySecuencias
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:81:10-90:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:83:13-45
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:85:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:82:13-83
+intent-filter#action:name:com.example.a3_memoriongame.ActivitySecuencias+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:86:13-89:29
+action#com.example.a3_memoriongame.ActivitySecuencias
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:87:17-89
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:87:25-86
+activity#com.jesusmanuelrodriguez.freshmemory.ActivitySecuencias2
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:92:11-101:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:95:13-49
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:94:13-45
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:96:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:93:13-84
+intent-filter#action:name:com.example.a3_memoriongame.ActivitySecuencias2+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:97:13-100:29
+action#com.example.a3_memoriongame.ActivitySecuencias2
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:98:17-90
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:98:25-87
+activity#com.jesusmanuelrodriguez.freshmemory.ActivitySimon
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:104:10-113:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:107:13-49
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:106:13-45
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:108:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:105:13-78
+intent-filter#action:name:com.example.a3_memoriongame.ActivitySimon+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:109:13-112:29
+action#com.example.a3_memoriongame.ActivitySimon
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:110:17-84
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:110:25-81
+activity#com.jesusmanuelrodriguez.freshmemory.ActivityBoard
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:115:9-123:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:117:15-51
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:118:14-61
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:116:14-79
+intent-filter#action:name:com.example.a3_memoriongame.ActivityBoard+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:119:13-122:29
+action#com.example.a3_memoriongame.ActivityBoard
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:120:16-83
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:120:24-80
+activity#com.jesusmanuelrodriguez.freshmemory.ActivityModos
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:126:9-134:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:128:13-49
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:129:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:127:13-78
+intent-filter#action:name:com.example.a3_memoriongame.ACTIVITYMODOS+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:130:13-133:29
+action#com.example.a3_memoriongame.ACTIVITYMODOS
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:131:16-83
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:131:24-80
+activity#com.jesusmanuelrodriguez.freshmemory.ActivityModosSeleccion
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:137:9-145:20
+	android:screenOrientation
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:139:13-49
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:140:13-60
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:138:13-87
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:141:13-144:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:142:17-69
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:142:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:143:17-77
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:143:27-74
+activity#com.jesusmanuelrodriguez.freshmemory.OpcionesMenu
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:150:8-159:20
+	android:label
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:152:4-40
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:153:4-47
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:151:13-77
+intent-filter#action:name:com.example.a3_memoriongame.OPCIONESMENU+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:155:13-158:29
+action#com.example.a3_memoriongame.OPCIONESMENU
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:156:17-83
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:156:25-80
+activity#com.jesusmanuelrodriguez.freshmemory.AboutUs
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:161:9-169:20
+	android:theme
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:163:4-47
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:162:13-72
+intent-filter#action:name:com.example.a3_memoriongame.ABOUTUS+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:165:13-168:29
+action#com.example.a3_memoriongame.ABOUTUS
+ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:166:17-78
+	android:name
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml:166:25-75
+uses-sdk
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6dbd62e2711d3d363e1cf39a971dcce9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6dbd62e2711d3d363e1cf39a971dcce9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\be1dc0e1720d2d3bb2667cdf157af71d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\be1dc0e1720d2d3bb2667cdf157af71d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6f0d361f5806f827be07ecd66f59ebb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6f0d361f5806f827be07ecd66f59ebb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\a2ba3eb3f101f5dd7e6a8fa5a3cef22b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\a2ba3eb3f101f5dd7e6a8fa5a3cef22b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bf53a6508c5a928659d26314adaf763f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bf53a6508c5a928659d26314adaf763f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\1c8145f8587f729ddc48caf38674be81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\1c8145f8587f729ddc48caf38674be81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\66165c8eb9ae7014365260aaf5b553cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\66165c8eb9ae7014365260aaf5b553cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\9520291e6545361254da1b997fe0c529\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\9520291e6545361254da1b997fe0c529\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\21517ac2fab4b1effb3918f23f7bc934\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\21517ac2fab4b1effb3918f23f7bc934\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\898138766388870d39e4e36da1180573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\898138766388870d39e4e36da1180573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\abab81a21257c89eefee439a50892d85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\abab81a21257c89eefee439a50892d85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\f7194b2ee8aac410b1a1d3a2922ab5b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\f7194b2ee8aac410b1a1d3a2922ab5b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\37153c81313ae26abd70064b10a78baf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\37153c81313ae26abd70064b10a78baf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\f28e5f8977c006d6f31f2ac14af6e457\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\f28e5f8977c006d6f31f2ac14af6e457\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6d64661dc31ba808b5974b06051f83d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\6d64661dc31ba808b5974b06051f83d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bab38781593a4f20590881330e8aa119\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\bab38781593a4f20590881330e8aa119\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\4cab7fa93ea42cf44cba154f977fb8b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\4cab7fa93ea42cf44cba154f977fb8b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\2f9a3914c6d730646853cf297aa584c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\2f9a3914c6d730646853cf297aa584c8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\29a924a8ba5613e473cc17aacff11621\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\29a924a8ba5613e473cc17aacff11621\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\0e79e8d600dcb84d7e3a2b9b50aa4c4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\0e79e8d600dcb84d7e3a2b9b50aa4c4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\1c4dc769feada7b2eeeacffe66071f9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\1c4dc769feada7b2eeeacffe66071f9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\39b52b3f28d51d5c7a9e9d8af2a56342\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\39b52b3f28d51d5c7a9e9d8af2a56342\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\3205134775598a2ff9311f2a08b3c80f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\3205134775598a2ff9311f2a08b3c80f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\ad2b9f6af9018ed2234dbf6b0f5aff28\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\ad2b9f6af9018ed2234dbf6b0f5aff28\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\b31175fa8353431e75eba7a0a50e8f62\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\b31175fa8353431e75eba7a0a50e8f62\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\a654350b0bbad252882e0bb35ea166fc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\a654350b0bbad252882e0bb35ea166fc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\03867b514b5dfcea485e449ef8747e0b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chukk\.gradle\caches\transforms-2\files-2.1\03867b514b5dfcea485e449ef8747e0b\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chukk\Desktop\proyectos\Fresh Memory\app\src\main\AndroidManifest.xml

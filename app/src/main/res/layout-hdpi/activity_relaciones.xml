@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearRelaciones2"   
+    android:background="@drawable/fondorelaciones"
+    >
+    
+    <TextView 
+        android:id="@+id/texto_relacionesmode"
+ 	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:text="@string/botonmodorelaciones"      
+        android:textStyle="bold"
+        android:textColor="@color/blue2"
+         android:textSize="33sp"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"        
+ 	    />
+    
+     <RelativeLayout 
+         android:id="@+id/relativemodorelaciones1"
+         android:layout_below="@id/texto_relacionesmode"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         >
+         <TextView        
+             	android:id="@+id/texto_dificultadrelaciones"  
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"       
+        		android:text="@string/dificultad"
+        		android:textSize="15sp"
+        		android:textStyle="bold"
+        		android:textColor="#000044"
+        		android:layout_marginLeft="10dp"
+        		 />
+    
+      	<RadioGroup 
+      	    	android:id="@+id/radiogrupo2"
+      	    	android:layout_below="@id/texto_dificultadrelaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:orientation="horizontal"    
+                android:layout_marginBottom="10dp"           
+            	>
+
+        		<RadioButton 
+           			android:id="@+id/radiodif11"
+            		android:layout_width="60dp"
+            		android:layout_height="wrap_content"         
+         			android:button="@drawable/selector_boton1" 
+         			android:layout_marginLeft="2dp"
+         			android:tag="4x3"
+          		/>
+    		
+    			<RadioButton 
+         			android:id="@+id/radiodif22"
+         			android:layout_width="60dp"
+         			android:layout_height="wrap_content"        
+         			android:checked="true"           
+         			android:button="@drawable/selector_boton5" 
+           			android:layout_marginLeft="2dp"
+           			android:tag="5x4"
+       			 />     
+
+    			<RadioButton 
+         			android:id="@+id/radiodif33"
+         			android:layout_width="60dp"
+         			android:layout_height="wrap_content"                   
+         			android:button="@drawable/selector_boton6" 
+           			android:layout_marginLeft="2dp"
+           			android:tag="7x4"           			
+       		 	/>     
+
+				<RadioButton 
+	     			android:id="@+id/radiodif44"
+            		android:layout_width="60dp"
+            		android:layout_height="wrap_content"
+            		android:button="@drawable/selector_boton3" 
+           			android:layout_marginLeft="2dp"       
+           			android:tag="8x5" 
+	   	 		/>
+            
+    	</RadioGroup>         
+     </RelativeLayout>   
+     
+     <RelativeLayout 
+        android:id="@+id/relativemodorelaciones2"
+        android:layout_below="@id/relativemodorelaciones1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"               
+        >
+      	
+        <TextView        	
+            android:id="@+id/texto_tematicarelaciones"       		
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:text="@string/tematica"        	
+        	android:textStyle="bold"
+        	android:textSize="15sp"
+        	android:textColor="#000044"
+        	android:layout_marginLeft="10dp"
+        	 />
+    
+    	<android.support.v7.widget.GridLayout	      
+    		xmlns:app="http://schemas.android.com/apk/res-auto"     
+     		android:id="@+id/idGrid2"
+     		android:layout_below="@id/texto_tematicarelaciones"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		app:columnCount="4"    		
+    		app:rowCount="2"
+    		app:orientation="vertical"
+    		android:stretchMode="columnWidth"   
+    		android:layout_marginBottom="10dp"       
+     		>
+     
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig00_0"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="0"
+       			 app:layout_row="0"
+       			 android:orientation="vertical"
+       			 android:layout_marginRight="2dp"
+       			 android:tag="tema7"
+     		    >
+     		  
+     		     <ImageView 
+			        android:id="@+id/iv00_0"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"			       
+			        android:src="@drawable/tema7"			     
+			        android:visibility="visible"
+			        android:tag="imagenseptima"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv00gone_0"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"
+			        android:src="@drawable/tema77"
+			        android:visibility="gone"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig01_1"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="1"
+       			 app:layout_row="0"
+       			 android:orientation="vertical"
+       			 android:layout_marginRight="2dp"
+       			 android:tag="tema8" 
+     		    >
+			    
+     		     <ImageView 
+			        android:id="@+id/iv01_1"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"			       
+			        android:src="@drawable/tema8"			     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv01gone_1"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"
+			        android:src="@drawable/tema88"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig02_2"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="2"
+       			 app:layout_row="0"
+       			 android:orientation="vertical"
+       			 android:layout_marginRight="2dp"
+       			 android:tag="tema9"
+     		    >
+			     
+     		     <ImageView 
+			        android:id="@+id/iv02_2"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"			       
+			        android:src="@drawable/tema9"			     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv02gone_2"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"
+			        android:src="@drawable/tema99"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		    android:id="@+id/linearconfig11_5"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="3"
+       			 app:layout_row="0"
+       			 android:orientation="vertical"
+       			 android:layout_marginRight="2dp"
+       			android:tag="tema12"
+     		    >
+			    
+     		     <ImageView 
+			        android:id="@+id/iv12_5"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"			       
+			       android:src="@drawable/tema_12"		     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv12gone_5"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"
+			         android:src="@drawable/tema_1212"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig13_4"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="2"
+       			 app:layout_row="1"
+       			 android:orientation="vertical"
+       			 android:tag="tema13"
+     		    >
+			     
+     		     <ImageView 
+			        android:id="@+id/iv13_4"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"			       
+			        android:src="@drawable/tema_13"			     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv13gone_4"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"
+			        android:src="@drawable/tema_1313"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>
+     		
+     		
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig10_4"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="1"
+       			 app:layout_row="1"
+       			 android:orientation="vertical"
+       			 android:tag="tema11"
+     		    >
+			     
+     		     <ImageView 
+			        android:id="@+id/iv11_4"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"			       
+			        android:src="@drawable/tema_11"			     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv11gone_4"
+			        android:layout_width="60dp"
+			        android:layout_height="60dp"
+			        android:src="@drawable/tema_1111"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>         
+ 		</android.support.v7.widget.GridLayout>      	
+     </RelativeLayout>
+    
+    <RelativeLayout
+	     android:id="@+id/relativemodorelaciones3"
+	     android:layout_below="@id/relativemodorelaciones2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content" 
+	     android:layout_centerHorizontal="true"
+	     android:layout_marginTop="10dp"
+	     >
+    	
+        <Button 
+            android:id="@+id/boton_playrelaciones"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_marginRight="10dp"
+     	    android:text="@string/jugar"
+     	    android:textSize="32sp"
+     	    android:textStyle="bold"     	   
+     	    android:layout_centerVertical="true"
+     	    android:onClick="botonPlayRelaciones"
+     	    android:background="@drawable/fondo_botontimeattack"
+     	    android:padding="10dp"     	  
+     	 />
+        
+         <RelativeLayout 
+     	    android:layout_toRightOf="@id/boton_playrelaciones"
+     	   	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content" 
+	     	android:layout_marginLeft="10dp" 	
+     	    >
+     	    <TextView    
+     	        android:id="@+id/textpreviewRelaciones"
+     	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        	    android:layout_centerHorizontal="true"
+        		android:text="@string/preview"   
+        		android:textStyle="bold"
+        		android:textSize="15sp"
+        		android:textColor="#000044" /> 
+     	    
+     	    <ImageView 
+     	        android:layout_below="@id/textpreviewRelaciones"
+     	        android:id="@+id/imagenpreviewRelaciones"
+     	   		android:layout_width="70dp"
+     	    	android:layout_height="wrap_content"
+     	    	android:layout_centerHorizontal="true"     
+     	    	android:src="@drawable/saample11"	   
+     	    
+     	    />     	         	    
+     	</RelativeLayout>     	    
+    	
+    </RelativeLayout>
+</RelativeLayout>

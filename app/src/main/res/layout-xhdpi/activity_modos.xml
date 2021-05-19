@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_modos_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:background="@drawable/fondomodos"    
+    >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:orientation="vertical"        
+     >
+        <!-- 	android:textColor="#384f79" -->
+    <TextView 
+        android:id="@+id/textModos"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/modoparejas"
+        android:textSize="33sp"
+      	android:textColor="@color/blue2"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif"        
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        />
+    
+    <LinearLayout
+        android:id="@+id/linearmodosseleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" 
+        >
+     	<LinearLayout 
+        	android:id="@+id/linearmodos1"       
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_marginBottom="20dp"
+        >
+        
+        <!--  Opciones para poner de fondo en los botones: android:background="@drawable/boton_pressed1" -->
+       		 <Button
+        		android:id="@+id/botonmodoclasico"
+        		android:layout_width="220dp"
+        		android:layout_height="wrap_content"
+        		android:text="@string/botonmodoclasico"        	     	
+        		android:textSize="30sp"    
+        		android:textColor="@color/white"
+        		android:padding="5dp"    	    	
+        		android:onClick="botonModoClasico" 
+        		android:background="@drawable/fondo_botonhalo"
+        	     
+        	/>
+               
+       		 <ImageView 
+            	android:id="@+id/botoninformation1"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/botoninfo_72"
+				android:onClick="informacionModoClasico"
+            	/>
+        
+       		 <ImageView 
+            	android:id="@+id/botonmedallero1"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/boton_medalla"
+				android:onClick="botonMarcadoresClasico"
+            	/>
+         
+    	</LinearLayout>
+    
+   		 <LinearLayout 
+        	android:id="@+id/linearmodos2"       
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"       
+        	android:layout_marginBottom="20dp"
+        
+       		>
+         	<Button
+        		android:id="@+id/botonmodotimeatack"
+        		android:layout_width="220dp"
+        		android:layout_height="wrap_content"
+        		android:text="@string/botonmodotimeatack"        	
+        		android:textColor="@color/white"
+        		android:textSize="25sp"    
+        		android:padding="5dp"    	    	     	
+        		android:onClick="botonTimeAttack"
+        		android:background="@drawable/fondo_botonhalo"
+         	/>
+         	<ImageView 
+            	android:id="@+id/botoninformation3"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/botoninfo_72"
+				android:onClick="informationTimeAttack"
+            	/>
+        
+        	<ImageView 
+            	android:id="@+id/botonmedallero3"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/boton_medalla"
+				android:onClick="botonMarcadoresTimeattack"
+            	/>
+                 
+    	</LinearLayout>
+      
+    	<LinearLayout 
+        	android:id="@+id/linearmodos3"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"       
+        	android:orientation="horizontal"       
+        	android:layout_marginBottom="20dp"
+       		 >
+        
+         	<Button
+        		android:id="@+id/botonmodorelaciones"
+        		android:layout_width="220dp"
+        		android:layout_height="wrap_content"
+        		android:text="@string/botonmodorelaciones"        	
+        		android:textColor="@color/white"
+        		android:textSize="30sp"    
+        		android:padding="5dp"    	    	   	
+        		android:onClick="botonModoRelaciones"  
+        		android:background="@drawable/fondo_botontimeattack"
+        		/>
+         
+         	 <ImageView 
+            	android:id="@+id/botoninformation2"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/botoninfo_72"
+				android:onClick="informationRelaciones"
+            />
+        
+       		 <ImageView 
+            	android:id="@+id/botonmedallero2"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/boton_medalla"
+				android:onClick="botonMarcadoresRelaciones"
+            	/>
+                
+    	</LinearLayout>
+       
+   
+		<LinearLayout
+	    	android:id="@+id/linearmodos4"
+	    	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:orientation="horizontal" 
+        	android:layout_marginBottom="20dp"	   
+        	
+	    	>
+	     	<Button
+        		android:id="@+id/botonmodocalculo"
+        		android:layout_width="220dp"
+        		android:layout_height="wrap_content"
+        		android:text="@string/botonmodotimeatack2"        	
+        		android:textColor="@color/white"
+        		android:textSize="25sp"    
+        		android:padding="5dp"    	 
+        		android:onClick="botonTimeAttackrelaciones"   	
+        		android:background="@drawable/fondo_botontimeattack"
+        	
+        	/>
+	     
+	      	<ImageView 
+            	android:id="@+id/botoninformation4"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/botoninfo_72"
+				android:onClick="informationTimeAttack2"
+            	/>
+        
+        	<ImageView 
+            	android:id="@+id/botonmedallero4"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/boton_medalla"
+				android:onClick="botonMarcadoresTimeattack2"
+            	/>
+	    
+		</LinearLayout>
+		
+		<LinearLayout
+	    	android:id="@+id/linearmodos5"
+	    	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        
+        	android:orientation="horizontal" 	   
+        	
+	    	>
+	     	<Button
+        		android:id="@+id/botonretocolores"
+        		android:layout_width="220dp"
+        		android:layout_height="wrap_content"
+        		android:text="@string/botonretocolores"        	
+        		android:textColor="@color/white"
+        		android:textSize="25sp"    
+        		android:padding="5dp"    	 
+        		android:onClick="botonRetoColores"   	
+        		android:background="@drawable/fondo_botonretocolores"        	
+        	/>
+	     
+	      	<ImageView 
+            	android:id="@+id/botoninformation5"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/botoninfo_72"
+				android:onClick="informationRetocolores"
+            	/>
+        
+        	<ImageView 
+            	android:id="@+id/botonmedallero5"
+            	android:layout_width="35dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/boton_medalla"
+				android:onClick="botonMarcadoresRetocolores"
+            	/>	    
+		</LinearLayout>
+        
+    </LinearLayout>
+        
+    
+	<LinearLayout        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" 
+        >	
+    
+   		<RelativeLayout 
+      		android:id="@+id/relativelayout_modos"      
+      		android:layout_width="wrap_content"
+      		android:layout_height="wrap_content"
+  	  		android:background="@drawable/fondo_informativo"  
+  	  		android:layout_marginLeft="12dp" 
+  	  		android:layout_marginRight="12dp"	    
+  			>
+        
+      		<ImageView 
+          		android:id="@+id/imageninfor1"
+          		android:layout_centerVertical="true"
+          		android:layout_height="130dp"
+          		android:layout_width ="100dp"
+          		android:layout_margin="9dp"
+          		/>
+      
+      		<RelativeLayout 
+          		android:id="@+id/linearlaytextinfo"
+          		android:layout_toRightOf="@id/imageninfor1"
+          		android:layout_height="130dp"
+          		android:layout_width="match_parent"         
+          		android:padding="9dp"
+          		>
+     
+         	 	<TextView               
+           			android:id="@+id/textviewinformationtitle"            
+           			android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"           
+            		android:textStyle="bold"
+            		android:textSize="20sp"
+            		android:textColor="@color/white"
+            		android:layout_alignParentLeft="true"
+          			/>
+          
+          		<TextView 
+            		android:layout_below="@id/textviewinformationtitle"
+          			android:id="@+id/textviewinformation"
+	          		android:layout_width="wrap_content"
+	            	android:layout_height="match_parent"
+            		android:textStyle="normal"
+            		android:textColor="@color/white"
+          			android:textSize="15sp"         
+            		android:gravity="center_vertical"
+            		android:layout_centerInParent="true"          
+         			/>
+          
+     	</RelativeLayout>
+              
+  	</RelativeLayout>
+  </LinearLayout>
+  	<!--
+	<com.google.android.gms.ads.AdView
+   		    	 android:id="@+id/adView"   		    	
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 ads:adUnitId="ca-app-pub-6622316255260090/7390252562"
+                 ads:adSize="SMART_BANNER"/>
+		-->
+        
+  </LinearLayout>  
+
+  <ViewStub 
+	       android:id="@+id/viewstubHighScores"
+           android:inflatedId="@+id/panelimport4"
+           android:layout="@layout/high_scores"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="50dp"
+           android:layout_marginBottom="50dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+  		   android:layout_centerInParent="true"  		   
+            />
+	  
+</RelativeLayout>

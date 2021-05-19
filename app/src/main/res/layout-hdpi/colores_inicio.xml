@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_retocolores_inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fondo_iniciosecuencias"
+    >
+         
+     <TextView 
+        android:id="@+id/textoretocoloresinicio"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"       
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"        
+        android:typeface="serif"
+        android:text="@string/botonretocolores"
+        android:textColor="#000044"
+        android:textSize="25sp"
+        android:textStyle="bold"        
+         />
+     
+       <ImageView       
+        android:id="@+id/logoretocoloresinicio"
+        android:src="@drawable/logoretocolores"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"        
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+         />
+   
+      
+      <Button 
+      	 android:id="@+id/coloresinicio_botonplay"
+         android:layout_height="wrap_content"
+         android:layout_width="180dp"
+         android:layout_gravity="center_horizontal"	
+         android:text="@string/jugar"
+         android:padding="4dp"    	
+         android:textSize="22sp"
+         android:textStyle="bold"
+         android:background="@drawable/fondo_botontimeattack"
+         android:onClick="botonPlayInicio"
+         android:layout_marginBottom="8dp"        
+        />  
+        
+       <Spinner 
+         android:id="@+id/retocolores_spiner"
+         android:layout_height="wrap_content"
+         android:layout_width="180dp"
+         android:padding="4dp"    	
+         android:textStyle="bold"
+         android:layout_gravity="center_horizontal"
+         android:background="@drawable/fondo_botontimeattack"
+         android:layout_marginBottom="8dp"           
+        />
+    
+    	<Button 
+         android:id="@+id/retocolores_botonmenu"
+         android:layout_height="wrap_content"
+         android:layout_width="180dp"
+         android:layout_gravity="center_horizontal"
+         android:text="@string/salir"
+         android:textStyle="bold"
+         android:padding="4dp"    	
+         android:textSize="22sp"
+         android:background="@drawable/fondo_botontimeattack"
+         android:onClick="botonMenuSalir"
+         android:layout_marginBottom="8dp"
+         />
+
+</LinearLayout>

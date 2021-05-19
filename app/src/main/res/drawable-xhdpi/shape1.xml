@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- http://android-dev-tips-and-tricks.blogspot.com.es/2012/08/xml-drawables-part-i.html
+	http://android-dev-tips-and-tricks.blogspot.com.es/2012/09/xml-drawables-part-ii.html
+gradient:	Specify gradient backgrounds
+solid:	Specify solid background color
+padding:Specify padding between the edge of the shape and its contents
+size:	Specify the width and height
+stroke:	Specify a stroke line around the edge of the shape -->
+
+<!-- Podriamos especificar dentro de la inicializaion del shape tambien si es oval, retangulo etc:
+<shape xmlns:android="http://schemas.android.com/apk/res/android"     
+    android:shape="oval">
+    Si no se pone nada , ocupa el lugar del contenedor, en nuestro caso es rectangular
+ -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">   
+    <!-- anchura del borde y color verde oscuro -->
+    <stroke
+        android:width="3dp" 	
+        android:color="#DD000000"       
+         /> 
+
+	<!-- angulo de la degradacion -->
+	<!-- 
+    <gradient		
+        android:angle="90"  
+        android:endColor="#CC33FF"
+        android:startColor="#800080" />
+     -->
+   <gradient		
+        android:angle="90"  
+        android:endColor="#0099cc"
+        android:startColor="#33b5e5" />
+     
+	<padding
+    	android:left="2dp"
+   	 	android:right="2dp"
+     />
+    <corners
+        android:bottomLeftRadius="7dp"
+        android:bottomRightRadius="7dp"
+        android:topLeftRadius="7dp"
+        android:topRightRadius="7dp" />
+    
+</shape>

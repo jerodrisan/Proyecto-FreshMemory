@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="15sp"
+    android:gravity="left"  
+    android:textColor="@color/black"
+    android:padding="5dp"
+    >
+
+</TextView>
+
+<!-- Podriamos usarlo para definir el tipo de texto interno de  un spinner 
+ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, R.layout.spinner_item, niveles); 
+ -->

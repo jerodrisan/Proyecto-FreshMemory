@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 
+    The 2 hex characters can range from 00 to FF. For example-
+
+Normal opaque black hex- "#000000"
+Fully transparent - "#00000000"
+Fully opaque - "#FF000000"
+50% transparent - "#80000000"
+This way you can change any color to any level of transparency.
+To find the Hex prefix from a percentage-
+Divide the percentage number by 100 and multiply by 255 to get the decimal value. Convert the decimal to hex here.
+eg. for 50%, 50/100 * 255 = 128. Using the link we get hex value 80.
+     -->
+    <solid
+        android:color="#4D000000" >
+    </solid>
+    
+   <stroke
+        android:width="2dp"
+        android:color="#C4CDE0" >
+    </stroke>
+    
+    <padding
+        android:left="15dp"
+        android:top="15dp"
+        android:right="15dp"
+        android:bottom="15dp"    >
+    </padding>
+
+    <corners
+        android:radius="5dp"   >
+    </corners>
+
+</shape>

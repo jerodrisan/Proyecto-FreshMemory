@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item 
+        android:title="@string/aboutus"
+        android:id="@+id/aboutus"      
+        android:icon="@drawable/boton_aboutus"        
+        />
+   
+    <item 
+        android:title="@string/sonido"
+        android:id="@+id/menu_sonido"      
+        android:icon="@drawable/boton_sonido"        
+        />
+   
+       
+    <item
+        android:title="@string/resetmarcadores"
+        android:id="@+id/resetmarcadores"       
+        android:icon="@drawable/boton_resetmarcadores"
+        android:visible="false"
+        >        
+        
+     </item>
+    
+     <item
+        android:title="@string/resetmarcadoresparejas"
+        android:id="@+id/resetmarcadoresparejas"       
+        android:icon="@drawable/boton_resetmarcadores"
+        android:visible="false"
+        />
+      <item
+        android:title="@string/resetmarcadoressecuencias"
+        android:id="@+id/resetmarcadoressecuencias"       
+        android:icon="@drawable/boton_resetmarcadores"
+        android:visible="false" 
+        />
+  
+            
+</menu>

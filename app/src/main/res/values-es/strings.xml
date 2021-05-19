@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="boton_login">Iniciar Sesión</string>
+    <string name="boton_logoff">Desconectar</string> 
+    <string name="boton_logro">Logros</string> 
+    <string name="boton_leaderboards">Top Best</string> 
+    <string name="you_are_connected">Conectado Puntuaciones Online</string> 
+    <string name="you_are_not_connected">Offline</string>  
+    <string name="not_available">No disponible</string>  
+    
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Fresh Memory</string>    
+    <string name="menu_settings">Settings</string>   
+    <string name="selecciona_una_opcion">Selecciona una opción:</string>
+    <string name="columnas">Número Columnas: </string>
+    <string name="filas">Número de filas: </string>
+    <string name="dificultad">Seleccione Nivel:</string>    
+    <string name="sonido">Sonido</string>   
+    <string name="activarsonido">Activar sonido</string>  
+    <string name="desactivarsonido">Desactivar sonido</string>  
+    <string name="mostrarparejas">Mostrar parejas</string>
+    
+     <string name="modosecuencias">Secuencias</string>    
+     <string name="modoparejas">Parejas</string>  
+    
+    <string name="borrarmarcadores">Borrar Marcadores</string>
+    <string name="seborraranlosrecords">Se borraran los Records obtenidos y niveles alcanzados de todo el juego</string>
+    <string name="seborraranlosrecordsparejas">Se borraran los Records y niveles modo Parejas</string>
+    <string name="seborraranlosrecordssecuencias">Se borraran los Records y niveles modo Secuencias</string>     
+    <string name="deseasalir">Desea salir?</string>
+    <string name="deseasalir2">Desea salir del juego?</string>
+    <string name="perderapuntuaciones">Perdera las puntuaciones obtenidas</string>
+    
+    <string name="encontradas">Parejas : </string>
+    <string name="clicks">Intentos : </string>
+    <string name="tiempo">Tiempo : </string>
+           
+    <string name="puntuacion">Puntuación</string>
+    <string name="fecha">Fecha</string>
+      
+     <string name="modos">Modos de Juego</string>
+     <string name="nivelfinalcompletado">Final completado!!</string>
+     <string name="felicidades">FELICIDADES</string>
+     <string name="modocompletado">Modo Completado!!</string>
+     
+    <string name="jugar">Jugar</string> 
+    <string name="nivel">Nivel</string>
+    
+    <string name="clasicofacil">4x3</string>
+    <string name="clasicomedio">6x4</string>
+    <string name="clasicodificil">8x5</string>
+    <string name="clasicomaximo">10x7</string>
+    <string name="relacionesfacil">4x3</string>
+    <string name="relacionesmedio">5x4</string>
+    <string name="relacionesdificil">7x4</string>
+    <string name="relacionesmaximo">8x5</string>
+    
+    
+    <string name="completado">completado!! </string>
+    <string name="menu">Menu </string>
+    <string name="tiempo_restante">Bonus tiempo</string>
+    <string name="tiempo_empleado">Tiempo empleado</string>
+    <string name="puntos_totales">Puntos totales</string>
+    <string name="puntos_acumulados">Acumulados</string>
+    
+     
+    <string name="inicio">Start</string>
+    <string name="salir">Salir</string>
+    <string name="volver">Volver</string>
+     <string name="siguiente">Siguiente</string>
+    <string name="repetir">Repetir</string>
+     
+    
+    <string name="nosuperado">fallado!!</string>
+    <string name="jugarotravez">¿Jugar otra vez?</string>
+    
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="seg">seg</string>
+   
+    <string name="logo_empresa">ChukiGames</string>
+    <string name="logo_empresa2">ClaritaGames</string>    
+    <string name="logo_empresa4">MarinaGames</string>
+       
+    
+    <string name="pareja_encontrada">Encontrada</string>
+     
+    <string name="nivel_completado">Completado!</string> 
+    <string name="puntos_modoclasico">Puntos</string> 
+    <string name="aciertos_modoclasico">Aciertos</string> 
+    <string name="tiempo_modoclasico">Tiempo</string> 
+    <string name="combos_modoclasico">Combos</string> 
+    
+    <string name="marcadores">Marcadores</string> 
+   
+    <string name="text4x3">Panel \n(4x3)</string>
+    <string name="text6x4">Panel \n(6x4)</string>
+    <string name="text8x5">Panel \n(8x5)</string>
+    <string name="text10x7">Panel \n(10x7)</string>
+    <string name="tematica">Seleccione Tema:</string>   
+    <string name="preview">Vista Previa</string>    
+    
+    <!-- modo clasico -->
+    <string name="tema1">Banderas</string>
+    <string name="tema2">Deportes</string>
+    <string name="tema3">Emoticonos</string>
+    <string name="tema4">Varios</string>
+    <string name="tema5">Internet</string>
+    <string name="tema6">Objetos</string>
+    
+     <!-- modo relaciones -->
+    <string name="tema11">Deportes</string>
+    <string name="tema22">Profesiones</string>
+    <string name="tema33">Varios</string>
+    <string name="tema44">Disney</string>
+    <string name="tema55">Sumas</string>
+    <string name="tema66">Banderas</string>
+    <string name="tema77">Números Romanos</string>    
+          
+    <string name="botonmodoclasico">Clásico</string>
+    <string name="botonmodotimeatack">Reto Crono</string>    
+    <string name="botonmodorelaciones">Relaciones</string> 
+    <string name="botonmodotimeatack2">Reto Crono +</string>       
+    <string name="botonmodoSecuencias">Secuencias</string>      
+    
+    <string name="configuracion">Configuración</string> 
+    <string name="aboutus">Acerca de</string> 
+    <string name="resetmarcadores">Reset Records</string> 
+    <string name="resetmarcadoresparejas">Reset Records Parejas</string> 
+    <string name="resetmarcadoressecuencias">Reset Records Secuencias</string> 
+    <string name="preferencias">Preferencias</string> 
+    <string name="marcadoresaresetear">Records a Resetear</string> 
+  
+    
+    <string name="textviewinfor1">Encuentra todas las parejas del tablero en el menor número de intentos y el menor tiempo posible.</string>
+    <string name="textviewinfor2">Completa el panel antes de que se acabe el tiempo y pasa al siguiente nivel. </string>    
+    <string name="textviewinfor3">Relaciona cada imagen con su descripción correspondiente en el menor número de intentos y tiempo posible.</string>   
+	<string name="textviewinfor4">Completa el panel relacionando las imágenes con su descripción antes de que se agote el tiempo.</string>
+	<string name="textviewinfor5">Empareja cada color con su color correspondiente. Cada nivel es un reto diferente. </string>
+	
+	
+	<string name="textviewinfornumeros">Sumas y restas.\nPulsa el siguiente número de la secuencia según sea la operación indicada. </string>
+	<string name="textviewinforseries">Averigua la secuencia y da la vuelta a todo el panel en el menor número de intentos.</string>
+	<string name="textviewinforsimon">Memoriza la secuencia de colores como el clásico juego y supera tu propio record.  </string>
+		
+	<string  name="aboutuss">\nColaboraciones :\n\n\nIdea y diseño de niveles \nJonatan Manzano  \n\nAyudante técnico \nClara González \n\n\nAgradecimientos: \n\n\nwww.icondrawer.com \n http://sportsbettingspot.com \n http://www.icons-land.com \n http://www.aha-soft.com \n http://www.icons-land.com \n http://www.audionautix.com \n http://www.quizanswers.com \n http://www.softicons.com \n http://itscoding.com/new-social-media-icon-set \n http://www.everaldo.com \n http://designmodo.com/ \n</string>
+	
+	<!--  Strings referentes a todas las imagenes en modo relaciones: -->
+	<!--  DEPORTES: -->
+	
+	<string  name="depor1">Salto\n de\nvallas</string>
+	<string  name="depor2">Badminton</string>
+	<string  name="depor3">Ciclismo</string>
+	<string  name="depor4">Equitación</string>
+	<string  name="depor5">Gimnasia\nrítmica</string>
+	<string  name="depor6">Judo</string>
+	<string  name="depor7">Vela</string>
+	<string  name="depor8">Triatlon</string>
+	<string  name="depor9"> Lucha\nGrecorromana</string>
+	<string  name="depor10">Tiro \n con\n arco</string>
+	<string  name="depor11">Mountain\n  bike</string>
+	<string  name="depor12">Esgrima</string>
+	<string  name="depor13">Gimnasia\ntrampolin</string>
+	<string  name="depor14">Kayak</string>
+	<string  name="depor15"> Tiro\npistola</string>
+	<string  name="depor16">Voleibol</string>
+	<string  name="depor17">Baloncesto</string>
+	<string  name="depor18">Ciclismo\ncarretera</string>
+	<string  name="depor19">Equitación\n doma</string>
+	<string  name="depor20">Fútbol</string>
+	<string  name="depor21">Pentatlon</string>
+	<string  name="depor22">Natación\nsincro</string>
+	<string  name="depor23">Taekwondo</string>
+	<string  name="depor24">Levantamiento\npeso</string>
+	<string  name="depor25">Boxeo</string>
+	<string  name="depor26">Salto\ntrampolín</string>
+	<string  name="depor27">Salto\nequitación</string>
+	<string  name="depor28">Caballo con\narcos</string>
+	<string  name="depor29">Remo</string>
+	<string  name="depor30">Tenis de\nmesa</string>
+	<string  name="depor31">Tenis</string>
+	<string  name="depor32">Wrestling</string>
+	<string  name="depor33">Baseball</string>
+	<string  name="depor34">Running</string>
+	<string  name="depor35">Rugby</string>
+	
+	
+	<!--  NUMEROS: -->
+	<string  name="suma1">1</string>
+	<string  name="suma2">2</string>
+	<string  name="suma3">3</string>
+	<string  name="suma4">4</string>
+	<string  name="suma5">5</string>
+	<string  name="suma6">6</string>
+	<string  name="suma7">7</string>
+	<string  name="suma8">8</string>
+	<string  name="suma9">9</string>
+	<string  name="suma10">10</string>
+	<string  name="suma11">11</string>
+	<string  name="suma12">12</string>
+	
+	<string  name="suma13">13</string>
+	<string  name="suma14">14</string>
+	<string  name="suma15">15</string>
+	<string  name="suma16">16</string>
+	<string  name="suma17">17</string>
+	<string  name="suma18">18</string>
+	<string  name="suma19">19</string>
+	<string  name="suma20">20</string>
+	<string  name="suma21">21</string>
+	<string  name="suma22">22</string>
+	<string  name="suma23">23</string>
+	<string  name="suma24">24</string>
+	
+	<string  name="suma25">25</string>
+	<string  name="suma26">26</string>
+	<string  name="suma27">27</string>
+	<string  name="suma28">28</string>
+	<string  name="suma29">29</string>
+	<string  name="suma30">30</string>
+	<string  name="suma31">31</string>
+	<string  name="suma32">32</string>
+	<string  name="suma33">33</string>
+	<string  name="suma34">34</string>
+	<string  name="suma35">35</string>
+	
+	<!-- NUMEROS ROMANOS:  	-->
+	
+	<string  name="numero1">I</string>
+	<string  name="numero2">II</string>
+	<string  name="numero3">III</string>
+	<string  name="numero4">IV</string>
+	<string  name="numero5">V</string>
+	<string  name="numero6">VI</string>
+	<string  name="numero7">VII</string>
+	<string  name="numero8">VIII</string>
+	<string  name="numero9">IX</string>
+	<string  name="numero10">X</string>
+	<string  name="numero11">XX</string>
+	<string  name="numero12">XXX</string>
+	<string  name="numero13">XL</string>
+	<string  name="numero14">L</string>
+	<string  name="numero15">LX</string>
+	<string  name="numero16">LXX</string>
+	<string  name="numero17">LXXX</string>
+	<string  name="numero18">XC</string>
+	<string  name="numero19">C</string>
+	<string  name="numero20">CC</string>
+	<string  name="numero21">CCC</string>
+	<string  name="numero22">CD</string>
+	<string  name="numero23">D</string>
+	<string  name="numero24">DC</string>
+	<string  name="numero25">DCC</string>
+	<string  name="numero26">DCCC</string>
+	<string  name="numero27">CM</string>	
+	<string  name="numero28">M</string>
+	
+	<string  name="numero29">MM</string>
+	<string  name="numero30">MMM</string>
+	<string  name="numero31">-IV-</string>
+	<string  name="numero32">-V-</string>
+	<string  name="numero33">-VI-</string>
+	<string  name="numero34">-VII-</string>
+	<string  name="numero35">-VIII-</string>
+	
+	<!--    BANDERAS:  -->
+	
+	<string  name="flag1">Afghanistan</string>
+	<string  name="flag2">Argentina</string>
+	<string  name="flag3">Argelia</string>
+	<string  name="flag4">Chile</string>
+	<string  name="flag5">España</string>
+	<string  name="flag6">Bélgica</string>	
+	<string  name="flag7">Brasil</string>
+	<string  name="flag8">Bulgaria</string>
+	<string  name="flag9">Canada</string>
+	<string  name="flag10">Austria</string>	
+	<string  name="flag11">China</string>
+	<string  name="flag12">Colombia</string>
+	<string  name="flag13">Croacia</string>
+	<string  name="flag14">Cuba</string>
+	<string  name="flag15">República\n Checa</string>
+	<string  name="flag16">Inglaterra</string>
+	<string  name="flag17">Estonia</string>
+	<string  name="flag18">Grecia</string>
+	<string  name="flag19">Israel</string>
+	<string  name="flag20">Italia</string>
+	<string  name="flag21">Japón</string>
+	<string  name="flag22">Macedonia</string>
+	<string  name="flag23">Malasia</string>
+	<string  name="flag24">México</string>
+	<string  name="flag25">Marruecos</string>
+	<string  name="flag26">Pakistán</string>
+	<string  name="flag27">Paraguay</string>
+	<string  name="flag28">Perú</string>
+	<string  name="flag29">Venezuela</string>
+	<string  name="flag30">Rusia</string>
+	<string  name="flag31">Sudáfrica</string>
+	<string  name="flag32">Bangladesh</string>
+	<string  name="flag33">Tailandia</string>
+	<string  name="flag34">Uruguay</string>
+	<string  name="flag35">PuertoRico</string>
+	
+	<!-- 		VARIOS:  -->
+	
+	<string  name="varios1">Azucarero</string>
+	<string  name="varios2">Bandera</string>
+	<string  name="varios3">Billetero</string>
+	<string  name="varios4">Café</string>
+	<string  name="varios5">Calabaza</string>
+	<string  name="varios6">Carro \nCompras</string>
+	<string  name="varios7">Cesta \nCompras</string>
+	<string  name="varios8">Casa</string>
+	<string  name="varios9">Codígo \nbarras</string>
+	<string  name="varios10">Dormitorio</string>
+	<string  name="varios11">Escudo</string>
+	<string  name="varios12">Globos</string>
+	<string  name="varios13">Gramófono</string>
+	<string  name="varios14">Imán</string>
+	<string  name="varios15">Impresora</string>
+	<string  name="varios16">Lápiz</string>
+	<string  name="varios17">Pastel</string>
+	<string  name="varios18">Peligro</string>
+	<string  name="varios19">Pincel</string>
+	<string  name="varios20">Pintura</string>
+	<string  name="varios21">Pluma</string>
+	<string  name="varios22">Radio</string>
+	<string  name="varios23">Regalo</string>
+	<string  name="varios24">Reloj</string>
+	<string  name="varios25">Rodillo\npintura</string>
+	<string  name="varios26">Rotulador</string>
+	<string  name="varios27">Satélite</string>
+	<string  name="varios28">Tarjeta\ncrédito</string>
+	<string  name="varios29">Teléfono</string>
+	<string  name="varios30">Móvil</string>
+	<string  name="varios31">Televisión</string>
+	<string  name="varios32">Tintero</string>
+	<string  name="varios33">Tubo Ensayo</string>
+	<string  name="varios34">Velas</string>
+	<string  name="varios35">Velocímetro</string>
+	
+	<!-- 		DISNEY:  -->
+	
+	<string  name="disney1">Toy Story</string>
+	<string  name="disney2">Timón</string>
+	<string  name="disney3">102 Dálmatas</string>
+	<string  name="disney4">Alicia\npais\nmarav.</string>
+	<string  name="disney5">Bambi</string>
+	<string  name="disney6">Blancanieves</string>
+	<string  name="disney7">Daysy</string>
+	<string  name="disney8">Donald</string>
+	<string  name="disney9">La Dama \ny vagabundo</string>
+	<string  name="disney10">Dumbo</string>
+	<string  name="disney11">Fievel</string>
+	<string  name="disney12">Goofy</string>
+	<string  name="disney13">Pluto</string>
+	<string  name="disney14">Ice Age\nDiego</string>
+	<string  name="disney15">Ice Age\nManny</string>
+	<string  name="disney16">Ice Age\nScrat</string>
+	<string  name="disney17">Ice Age\nSid</string>
+	<string  name="disney18">Mowgli Baloo</string>
+	<string  name="disney19">Lilo</string>
+	<string  name="disney20">Mickey</string>
+	<string  name="disney21">Minie</string>
+	<string  name="disney22">Mulan</string>
+	<string  name="disney23">Mushu</string>
+	<string  name="disney24">Pepito\nGrillo</string>
+	<string  name="disney25">Pinocho</string>
+	<string  name="disney26">Phoo</string>
+	<string  name="disney27">Tigger</string>
+	<string  name="disney28">Pumba</string>
+	<string  name="disney29">Simba</string>
+	<string  name="disney30">Nala</string>
+	<string  name="disney31">Jock</string>
+	<string  name="disney32">Ariel</string>
+	<string  name="disney33">Stich</string>
+	<string  name="disney34">Tarzán</string>
+	<string  name="disney35">Siameses</string>
+	
+	<!--  PROFESIONES : -->
+	
+	<string  name="profe1">Guitarrista</string>
+	<string  name="profe2">Enfermera Mili</string>
+	<string  name="profe3">Actriz</string>
+	<string  name="profe4">Football\nplayer</string>
+	<string  name="profe5">Director\nde cine</string>
+	<string  name="profe6">Practicante</string>
+	<string  name="profe7">Músico</string>
+	<string  name="profe8">Bombero</string>
+	<string  name="profe9">Enfermera</string>
+	<string  name="profe10">Piloto\ncomercial</string>
+	<string  name="profe11">Santa Claus</string>
+	<string  name="profe12">Boxeador</string>
+	<string  name="profe13">Grupo rescate</string>
+	<string  name="profe14">Monja</string>
+	<string  name="profe15">Nadador</string>
+	<string  name="profe16">Vikingo</string>
+	<string  name="profe17">Novia boda</string>
+	<string  name="profe18">Pizzero</string>
+	<string  name="profe19">Cowboy</string>
+	<string  name="profe20">Piloto\nMilitar</string>
+	<string  name="profe21">Farmaceutico</string>
+	<string  name="profe22">Camarero</string>
+	<string  name="profe23">Escritor</string>
+	<string  name="profe24">Bárbaro</string>
+	<string  name="profe25">Musulmán</string>
+	<string  name="profe26">Judio</string>
+	<string  name="profe27">Cocktelero</string>
+	<string  name="profe28">Cafetero</string>
+	<string  name="profe29">Soporte\ntécnico</string>
+	<string  name="profe30">Africano</string>
+	<string  name="profe31">Judoka</string>
+	<string  name="profe32">Madrina boda</string>
+	<string  name="profe33">Grupo reunión</string>
+	<string  name="profe34">Grupo militar</string>
+	<string  name="profe35">Niña</string>
+	
+	<string  name="compartirvia">Compartir</string>
+	<string  name="sharecontent">Hey, echale un ojo a este juego para mejorar tu memoria: \n "https://play.google.com/store/apps/details?id=com.jesusmanuelrodriguez.freshmemory"</string>
+	<string  name="sharesubject">Fresh Memory - Mejora tu memoria</string>
+	<string  name="compartir">Compartir</string>
+	<string  name="calificar">Puntuar</string>
+	
+	<string  name="sharesubject_puntos">Prueba tu memoria. Te desafio a FreshMemory!!!</string>
+	<string  name="sharecontent_puntos1">\n\nPuedes superar mi puntuación?</string>
+	<string  name="sharecontent_puntos2">\nModo:  </string>
+	<string  name="sharecontent_puntos3">\nNivel:  </string>
+	<string  name="sharecontent_puntos4">\nPuntos: </string>
+	<string  name="sharecontent_puntos6">\nPanel: </string>
+	<string  name="sharecontent_puntos5">\n\nDescargate el juego :\n "https://play.google.com/store/apps/details?id=com.jesusmanuelrodriguez.freshmemory"</string>
+	
+	<string  name="informacion">Como jugar.</string>
+	
+	<!-- //  MODO SERIES  -->
+	
+	<string  name="tituloseries">Series</string>
+	<string  name="vueltas">Vuelta :</string>
+	<string  name="textviewporcentajessecuencias">0/0 (100%)/Vuelta :0</string>
+	<string  name="aciertossecuencias">Aciertos/Rondas</string>
+	<string  name="informacionstubview">Completa el panel en el menor numero de intentos posible.
+	    \n\nEn caso de fallar un imagen que no corresponde a la correcta , el panel se da la vuelta entero y se empieza de nuevo.</string>
+	<string  name="nivelalcanzado">Nivel alcanzado</string>
+	
+	<string name="nums">Números</string>
+	<string name="lets">Letras</string>
+	<string name="numsYlets">Números y Letras</string>
+	<string name="poligonos">Polígonos</string>
+	<string name="dados">Dados</string>
+	<string name="operaciones">Operaciones</string>
+	<string name="formaspuntos">Puntos</string>
+	<string name="relojes">Relojes</string>
+	<string name="agujas">Agujas</string>
+	<string name="gusano1">Gusano 1</string>
+	<string name="gusano2">Gusano 2</string>
+	<string name="gusano3">Gusano 3</string>
+	<string name="gusano4">Gusano 4</string>
+	<string name="formascolores">Formas Colores</string>
+	<string name="formascubos">Formas Cubos</string>
+	<string name="formasrayas">Formas Líneas</string>
+	
+	<string name="facil">(Fácil)</string>
+	<string name="normal">(Normal)</string>
+	<string name="dificil">(Difícil)</string>
+	<string name="muydificil">(Muy Difícil)</string>
+	<string name="Niveles">Niveles</string>
+	
+	<!-- //  MODO NUMEROS  -->
+	<string  name="titulonumeros">Números</string>
+	<string  name="suma">suma</string>
+	<string  name="y">y</string>
+	<string  name="resta">resta</string>
+	<string  name="completalasecuencia">Completa la secuencia hasta completar el panel.\n\n Ejemplo:</string>
+	<string  name="suma2y5">Suma 2 y suma 5</string>
+	<string  name="suma2yresta4">Suma 2 y resta 4</string>
+	
+
+	
+	<!-- //  MODO SIMON    -->
+	
+	<string  name="informacionstubviewSimon">1. Selecciona la velocidad\n\n2. Pulsa start y sigue la secuencia de colores.\n\n Cada color tiene asociado un sonido.\n\n Si lo haces con los ojos cerrados eres un crack!!</string>
+	<string  name="modosimon">Simón</string>
+	<string  name="startSimon">Start</string>
+	<string  name="maxPuntuacionSimon">Record</string>
+	<string  name="nuevorecord">Nuevo Record!!!</string>
+	<string  name="turnoMaquina">Máquina</string>
+	<string  name="tuTurno">Tu turno</string>
+	<string  name="puntosSimon">Puntos</string>
+	<string  name="nivelSimon">Velocidad</string>
+	<string  name="nivelfacil">Lento</string>
+	<string  name="nivelmedio">Medio</string>
+	<string  name="niveldificil">Rápido</string>
+	<string  name="partidaterminada">PARTIDA TERMINADA\nPuntos obtenidos:</string>
+	
+	<!--  // RETO COLORES       -->
+	
+	<string  name="textoinfocolor">Emparejar\nPor ejemplo:\n</string>
+	<string  name="textoinfocolor1">Color Rojo - Color Rojo</string>
+	<string  name="textoinfocolor2">Color Verde - Objeto Rana</string>
+	<string  name="textoinfocolor3">Color Verde - Nombre Color Verde</string>
+	<string  name="textoinfocolor4">Letra Verde - Color Letra Rojo</string>
+	<string  name="textoinfocolor5">Dibujo Camión - Dibujo Camión</string>
+	<string  name="textoinfocolor6">Color A B C - Color A B C</string>
+	<string  name="textoinfocolor7">Color A B C Vertical - Color A B C Horizontal</string>
+		
+	<string  name="botonretocolores">Reto Colores</string>
+	
+</resources>

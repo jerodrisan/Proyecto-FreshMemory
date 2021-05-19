@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2013 Google Inc.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+    <!-- TODO: Replace this by your app's app ID! -->
+    <string name="app_id">992812124957</string>
+
+    <!-- TODO: Replace these by your achievement/leaderboard IDs! -->
+      
+    <string name="leaderboard_time_challenge">CgkInZbbwfIcEAIQCQ</string>
+    <string name="leaderboard_time_challenge_plus">CgkInZbbwfIcEAIQCg</string>     
+    <string name="leaderboard_color_challenge">CgkInZbbwfIcEAIQCw</string>
+    
+    <string name="leaderboard_sequence_series">CgkInZbbwfIcEAIQDQ</string>
+  	<string name="leaderboard_sequence_numbers">CgkInZbbwfIcEAIQDA</string>
+  	<string name="leaderboard_simon">CgkInZbbwfIcEAIQDg</string>
+
+    <string name="leaderboard_classic_4x3">CgkInZbbwfIcEAIQAQ</string>
+    <string name="leaderboard_classic_6x4">CgkInZbbwfIcEAIQAg</string>
+    <string name="leaderboard_classic_8x5">CgkInZbbwfIcEAIQAw</string>
+    <string name="leaderboard_classic_10x7">CgkInZbbwfIcEAIQBA</string>
+    
+    <string name="leaderboard_connections_4x3">CgkInZbbwfIcEAIQBQ</string>
+    <string name="leaderboard_connections_5x4">CgkInZbbwfIcEAIQBg</string>
+  	<string name="leaderboard_connections_7x4">CgkInZbbwfIcEAIQBw</string>
+  	<string name="leaderboard_connections_8x5">CgkInZbbwfIcEAIQCA</string>
+  	
+  	<!--  Ids para los ACHIEVEMENTS  -->
+  	
+  <string name="achievement_combo">CgkInZbbwfIcEAIQFQ</string>
+  <string name="achievement_pointer">CgkInZbbwfIcEAIQFg</string>
+  <string name="achievement_cronotimer">CgkInZbbwfIcEAIQFw</string>
+  <string name="achievement_cronotimer_plus">CgkInZbbwfIcEAIQGA</string>
+   <string name="achievement_king_of_sums">CgkInZbbwfIcEAIQJg</string>
+  <string name="achievement_romans">CgkInZbbwfIcEAIQJw</string>
+  <string name="achievement_coloring">CgkInZbbwfIcEAIQGw</string>
+  <string name="achievement_coloring_10">CgkInZbbwfIcEAIQHA</string>
+  <string name="achievement_king_of_colors">CgkInZbbwfIcEAIQHQ</string>
+  <string name="achievement_craps">CgkInZbbwfIcEAIQHg</string>
+  <string name="achievement_needles">CgkInZbbwfIcEAIQHw</string>
+  <string name="achievement_math">CgkInZbbwfIcEAIQIA</string>
+  <string name="achievement_worms">CgkInZbbwfIcEAIQIQ</string>
+  <string name="achievement_fly_memory">CgkInZbbwfIcEAIQIg</string>
+  <string name="achievement_fish_memory">CgkInZbbwfIcEAIQIw</string>
+  <string name="achievement_memorion">CgkInZbbwfIcEAIQJA</string>
+  <string name="achievement_elephant_memory">CgkInZbbwfIcEAIQJQ</string>
+  	
+    
+</resources>

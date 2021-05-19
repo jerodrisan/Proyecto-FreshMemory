@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo_botonmenu1"   
+    android:orientation="vertical" >
+    
+     <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="24sp"
+         android:textColor="@color/black"
+         android:text="@string/informacion"
+         android:layout_margin="5dp"
+         android:layout_marginTop="20dp"   
+         android:gravity="center_horizontal"
+       />
+     
+     <TextView        
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:text="@string/informacionstubviewSimon"
+        android:textSize="20sp"       
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"     
+        />
+     
+     <Button 
+        android:id="@+id/ok_text_infosimon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="OK"   
+        android:textSize="25sp"    
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"      
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"  
+        />   
+    
+
+</LinearLayout>

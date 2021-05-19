@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+	android:id="@+id/linearmarcadorestimeattack_fracaso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/fondo_timeattack"
+	>
+	
+     <TextView
+        android:id="@+id/text_levelnosuperado"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"        
+        android:textColor="@color/silver"
+        android:textSize="20sp"
+        />
+     
+      <ImageView       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/boton_thumbdown" />
+      
+      <TextView 
+          android:id="@+id/text_jugarotravez"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="17dp"
+          android:layout_gravity="center_horizontal"
+          android:text="@string/jugarotravez"
+          android:textStyle="bold"
+          android:textSize="30sp"
+          />
+      <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center_vertical"
+         android:orientation="horizontal"
+         android:layout_marginTop="35dp"   
+         android:layout_marginRight="35dp"  
+         android:layout_marginLeft="35dp"  
+          >
+           <Button 
+            	android:id="@+id/marcador_no_timeattack"
+            	android:layout_height="wrap_content"
+            	android:layout_width="0dp"
+            	android:layout_weight="1" 
+            	android:layout_marginRight="7dp"      
+            	android:padding="4dp"     	
+            	android:text="@string/no"
+            	android:textSize="17sp"
+            	android:textStyle="bold"
+            	android:background="@drawable/fondo_botonclassic"
+            	android:onClick="botonVolveraMenuFracaso"
+            	
+            />
+            <Button 
+            	android:id="@+id/marcador_si_timeattack"
+            	android:layout_height="wrap_content"
+            	android:layout_width="0dp"
+            	android:layout_weight="1"    
+            	android:layout_marginLeft="7dp"        
+            	android:padding="4dp"	
+           	 	android:text="@string/si"
+            	android:textSize="17sp"
+            	android:textStyle="bold"
+            	android:background="@drawable/fondo_botonclassic"
+            	android:onClick="botonVolveraJugarFracaso"
+            />
+          
+          
+      </LinearLayout>
+      
+      
+    
+
+</LinearLayout>

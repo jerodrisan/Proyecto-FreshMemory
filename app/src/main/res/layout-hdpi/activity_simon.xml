@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simon_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosimon"
+     >
+
+    <LinearLayout
+        android:id="@+id/linear1_Simon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/fondo_botonhalo"
+        android:orientation="vertical" >
+
+        <LinearLayout
+        	android:id="@+id/linear2_simon"       
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"        	    	
+        	android:orientation="horizontal" 
+        	android:layout_marginBottom="8dp"
+        	android:layout_marginTop="8dp"
+        	>
+        	
+        	<Button
+            	android:id="@+id/buttonNivelSimon"
+            	android:layout_width="0dp"
+            	android:layout_weight="1"
+            	android:layout_height="wrap_content"
+            	android:text="@string/nivelSimon"
+            	android:textSize="17sp"	
+            	android:padding="4dp"	
+            	android:gravity="center"
+            	android:layout_marginLeft="23dp"
+            	android:layout_marginRight="4dp"
+            	android:background="@drawable/fondo_botonclassic"
+            	android:onClick="seleccionarNivel"
+             />
+        	        	
+
+        	<TextView
+            	android:id="@+id/textYourTurn"
+            	android:layout_width="0dp"
+            	android:layout_weight="1"
+            	android:layout_height="wrap_content"                  	
+            	android:textColor="@color/black"
+            	android:textSize="17sp"
+            	android:background="@drawable/fondo_botonmenu1"            	
+            	android:padding="8dp"
+            	android:gravity="center"
+            	android:layout_marginLeft="4dp"
+            	android:layout_marginRight="23dp"
+            	         	/>        
+   	 	</LinearLayout>
+   	 	        
+   	 	 <LinearLayout
+        	android:id="@+id/linear3_simon"       
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"        	    	
+        	android:orientation="horizontal" 
+        	android:layout_marginBottom="8dp"
+        	>
+        	
+   	 	     
+   	 	     <Button
+            	android:id="@+id/buttonStartSimon"
+            	android:layout_width="0dp"            
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:text="@string/startSimon"
+            	android:textSize="17sp"	
+            	android:padding="4dp"			
+            	android:gravity="center"
+            	android:layout_marginLeft="23dp"
+            	android:layout_marginRight="4dp"
+            	android:background="@drawable/fondo_botonclassic"
+            	
+      		 />
+   	 	     
+   	 	     <TextView 
+        		android:id="@+id/textHighScoreSimon"
+        		android:layout_width="0dp"
+        		android:layout_height="wrap_content"
+        		android:layout_weight="1"
+        		android:text="@string/maxPuntuacionSimon"
+        		android:textSize="17sp"
+        		android:textColor="@color/black"     
+        		android:background="@drawable/fondo_botonmenu1"   	 		
+        		android:gravity="center"
+        		android:padding="8dp"
+        		android:layout_marginLeft="4dp"
+            	android:layout_marginRight="23dp"
+       	 	/> 
+   	 	     
+        	
+        </LinearLayout>   	 	
+        
+    </LinearLayout>    
+    
+    <android.support.v7.widget.GridLayout	   
+    	xmlns:app="http://schemas.android.com/apk/res-auto"  
+    	android:id="@+id/grid_simon"    	
+    	android:layout_below="@id/linear1_Simon"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"   
+    	app:orientation="vertical"
+    	
+    >
+	</android.support.v7.widget.GridLayout>    
+	
+    <ViewStub 
+	       android:id="@+id/viewstubinforsecuencias3"
+           android:inflatedId="@+id/panelimport20"
+           android:layout="@layout/text_infosimon"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="40dp"
+           android:layout_marginLeft="40dp"
+  		   android:layout_centerInParent="true" 
+  		  
+  		   
+     />
+
+</RelativeLayout>
+        

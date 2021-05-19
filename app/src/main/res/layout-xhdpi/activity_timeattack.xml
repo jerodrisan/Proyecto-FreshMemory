@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/timeattack_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"        
+    android:background="@drawable/fondoclasico"
+    >
+    
+    <RelativeLayout         
+        android:id="@+id/linear_timeattack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"		
+		android:layout_alignParentTop="true"        
+		android:background="@drawable/fondo_informativo_clicks"  
+        >
+        
+       
+            <TextView
+            		android:id="@+id/timeattack_infotiempo"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"  
+            		android:textSize="20sp"
+            		android:textStyle="bold"     
+            		android:textColor="@color/white"
+            		android:layout_alignParentTop="true"
+            		android:layout_centerHorizontal="true"
+            		android:visibility="gone"
+            		
+            		 />
+            
+              <TextView
+            		android:id="@+id/secuencias_porcentajestextview"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android:text="@string/textviewporcentajessecuencias"
+            		android:textSize="17sp"
+            		android:textColor="@color/white"
+            		android:textStyle="bold"               		            		
+            		android:layout_centerHorizontal="true"     
+            		android:layout_alignParentTop="true"            		   
+            		android:visibility="gone"       		
+            		 />
+            
+          
+       			                 
+               <ImageView 
+       				android:id="@+id/timeattack_botonpause"
+        			android:layout_height="35dp"
+        			android:layout_width="35dp"
+        			android:layout_marginRight="5dp"        			
+             		android:src="@drawable/boton_pausa"     
+        			android:layout_toLeftOf="@id/timeattack_botonsonido"
+        			android:layout_centerVertical="true"        		        			
+        			android:background="#00000000"
+        			android:onClick="botonPause"        
+        			android:visibility="invisible"			        		
+        		/>    
+        		
+               <ImageView 
+       				android:id="@+id/timeattack_botonsonido"
+        			android:layout_height="30dp"
+        			android:layout_width="30dp"
+        			android:layout_marginRight="5dp"
+        			android:layout_alignParentRight="true"        		
+        			android:layout_centerVertical="true"
+        			android:background="#00000000"
+        			android:onClick="botonSonido"
+        			android:visibility="invisible"
+        		/>    
+                     
+                <ImageView 
+       				android:id="@+id/timeattack_botonbolverajugar"
+        			android:layout_height="35dp"
+        			android:layout_width="35dp"
+        			android:layout_marginLeft="20dp"       			
+             		android:src="@drawable/boton_volverajugar3"      
+        			android:layout_alignParentLeft="true"
+        			android:layout_centerVertical="true"        		        			
+        			android:background="@drawable/fondo_blanco"
+        			android:onClick="botonvolveraJugar"    
+        			android:visibility="invisible"        			
+        		/>    
+               
+
+       			 <ProgressBar
+            		android:id="@+id/timeattack_progressbar"
+            		style="?android:attr/progressBarStyleHorizontal"
+            		android:layout_width="150dp"
+            		android:layout_height="wrap_content"         
+            		android:layout_below="@id/timeattack_infotiempo"          	
+            		android:layout_centerHorizontal="true"
+           			android:progressDrawable="@drawable/progressbar_drawable"       
+           			android:visibility="gone"                 
+             	/>
+       			 
+       			   <Chronometer
+       			     android:id="@+id/secuencias_crono"
+       			     android:layout_width="wrap_content"
+       			     android:layout_height="wrap_content"
+       			   	 android:layout_centerHorizontal="true" 
+       			     android:layout_below="@id/secuencias_porcentajestextview" 
+       			     android:visibility="gone"
+       			     android:textSize="20sp"       		    
+       			     
+       			     />       
+       			      			        
+    </RelativeLayout>
+    
+    <android.support.v7.widget.GridLayout	   
+    	xmlns:app="http://schemas.android.com/apk/res-auto"  
+    	android:id="@+id/grid_timeattack"    	
+    	android:layout_below="@id/linear_timeattack"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"   
+    	app:orientation="vertical"
+    	android:visibility="invisible"
+    >
+	</android.support.v7.widget.GridLayout>    
+	<!--
+    <com.google.android.gms.ads.AdView
+   		 android:id="@+id/adView"
+   		 android:layout_below="@id/grid_timeattack"   		    		 
+		 android:layout_alignParentBottom="true"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"         
+         android:visibility="gone"
+         ads:adUnitId="ca-app-pub-6622316255260090/7390252562"
+         ads:adSize="SMART_BANNER"/>
+	-->
+ 
+    
+    
+	<ViewStub 
+	       android:id="@+id/viewstubTimeattackInicio"
+           android:inflatedId="@+id/panelimport2"
+           android:layout="@layout/timeattack_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="100dp"
+           android:layout_marginBottom="80dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+  		   android:layout_centerInParent="true" 	
+     />
+	
+	<ViewStub 
+	       android:id="@+id/viewstubTimeattackInicioRelaciones"
+           android:inflatedId="@+id/panelimport3"
+           android:layout="@layout/timeattack_iniciorelaciones"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="100dp"
+           android:layout_marginBottom="80dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+  		   android:layout_centerInParent="true" 	
+     />
+	
+	<ViewStub 
+	       android:id="@+id/viewstubInicioRetoColores"
+           android:inflatedId="@+id/panelimport40"
+           android:layout="@layout/colores_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="100dp"
+           android:layout_marginBottom="80dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+  		   android:layout_centerInParent="true" 	
+     />
+	
+	<!--  El viewstub de TimeattackFinalExito no lo usaremos. Se hara programaticamente en la funcion mostrarMarc() de cada clase -->
+	<ViewStub 
+	       android:id="@+id/viewstubTimeattackFinalexito"
+           android:inflatedId="@+id/panelimport4"
+           android:layout="@layout/timeattack_final_exito"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="50dp"
+           android:layout_marginBottom="50dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+  		   android:layout_centerInParent="true"  		   
+            />
+	
+	<ViewStub 
+	       android:id="@+id/viewstubTimeattackFinalfracaso"
+           android:inflatedId="@+id/panelimport5"
+           android:layout="@layout/timeattack_final_fracaso"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="100dp"
+           android:layout_marginBottom="100dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+  		   android:layout_centerInParent="true"  		   
+            />
+	<ViewStub 
+	       android:id="@+id/viewstubHighScores"
+           android:inflatedId="@+id/panelimport6"
+           android:layout="@layout/high_scores"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="50dp"
+           android:layout_marginBottom="50dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+  		   android:layout_centerInParent="true"  		   
+            />
+	<ViewStub 
+	       android:id="@+id/viewstubSecuenciasInicio"
+           android:inflatedId="@+id/panelimport14"
+           android:layout="@layout/secuencias_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="100dp"
+           android:layout_marginBottom="90dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+  		   android:layout_centerInParent="true" 	
+     />
+	
+	<ViewStub 
+	       android:id="@+id/viewstubinforsecuencias"
+           android:inflatedId="@+id/panelimport15"
+           android:layout="@layout/text_infosecuencias"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"  
+            android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"        
+  		   android:layout_centerInParent="true" 
+     />
+	
+	<ViewStub 
+	       android:id="@+id/viewstubinforsecuencias2"
+           android:inflatedId="@+id/panelimport16"
+           android:layout="@layout/text_infosecuencias2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"  
+            android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"        
+  		   android:layout_centerInParent="true" 
+     />
+	
+	<ViewStub 
+	       android:id="@+id/viewstubinforsecuencias3"
+           android:inflatedId="@+id/panelimport17"
+           android:layout="@layout/text_infocolores1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"  
+            android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"        
+  		   android:layout_centerInParent="true" 
+     />
+		
+
+</RelativeLayout>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearConfig2"   
+    android:background="@drawable/fondoclasico"
+     >
+       
+	<!--  Podriamos usar TextViews para titulo y modo de juego, pero mejor meter 
+	logos hecmos con GIMP o Photoshop y usarlos con ImageViews -->
+	
+ 	<TextView 
+ 	    android:id="@+id/texto_classicmode"
+ 	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:text="@string/botonmodoclasico"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="@color/blue2"
+        android:textSize="35sp"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        
+ 	    />
+   
+
+     <RelativeLayout 
+         android:id="@+id/relativemodoclassic1"
+         android:layout_below="@id/texto_classicmode"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         >
+         
+          <TextView        
+        	android:id="@+id/texto_dificultad"        	
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"       
+        	android:text="@string/dificultad"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+        	android:textStyle="bold"
+        	android:textColor="#000044"
+        	android:layout_marginLeft="10dp"
+        	/>
+     	<RadioGroup 
+     	    	android:id="@+id/radiogrupo1"
+     	    	android:layout_below="@id/texto_dificultad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:orientation="horizontal"                  
+                android:layout_marginBottom="10dp"           
+            >
+
+        	<RadioButton 
+           		android:id="@+id/rb43"
+            	android:layout_width="73dp"
+            	android:layout_height="wrap_content"          
+         		android:button="@drawable/selector_boton1" 
+         		android:layout_marginLeft="2dp"
+         		android:tag="4x3"
+         		
+          	/>
+    		
+    		<RadioButton 
+         		android:id="@+id/rb64"
+         		android:layout_width="73dp"
+         		android:layout_height="wrap_content"            
+         		android:checked="true"       
+         		android:button="@drawable/selector_boton2" 
+           		android:layout_marginLeft="2dp"
+           		android:tag="6x4"
+       		 />     
+
+    		<RadioButton 
+         		android:id="@+id/rb85"
+         		android:layout_width="73dp"
+         		android:layout_height="wrap_content"                   
+         		android:button="@drawable/selector_boton3" 
+           		android:layout_marginLeft="2dp"
+           		android:tag="8x5"
+       		 />     
+
+			<RadioButton 
+	     		android:id="@+id/rb107"
+            	android:layout_width="73dp"
+            	android:layout_height="wrap_content"
+            	android:button="@drawable/selector_boton4" 
+           		android:layout_marginLeft="2dp"    
+           		android:tag="10x7"           		    
+	    />            
+    </RadioGroup>
+   </RelativeLayout>   
+    
+     
+   <RelativeLayout 
+        android:id="@+id/relativemodoclassic2"
+        android:layout_below="@id/relativemodoclassic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+               
+        >
+     	 <TextView        	
+       		android:id="@+id/texto_tematica"       		
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        	
+        	android:text="@string/tematica"        	
+        	android:textStyle="bold"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+        	android:textColor="#000044"
+        	android:layout_marginLeft="10dp"
+        	/>
+       
+	 <android.support.v7.widget.GridLayout	      
+    		xmlns:app="http://schemas.android.com/apk/res-auto"
+     		android:id="@+id/idGrid"
+     		android:layout_below="@id/texto_tematica"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		app:columnCount="4"    		
+    		app:orientation="vertical"
+    		app:rowCount="2"
+    		android:stretchMode="columnWidth"   
+    		android:layout_marginBottom="10dp"       
+     		>
+     
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig00"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="0"
+       			 app:layout_row="0"
+       			 android:orientation="vertical"
+       			 android:layout_marginRight="2dp"
+       			 android:tag="paises"
+     		    >
+     		  
+     		     <ImageView 
+			        android:id="@+id/iv00"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"			       
+			        android:src="@drawable/tema1"			     
+			        android:visibility="visible"			       
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv00gone"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/tema11"
+			        android:visibility="gone"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig01"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="1"
+       			 app:layout_row="0"
+       			 android:orientation="vertical"
+       			 android:layout_marginRight="2dp"
+       			 android:tag="deportes" 
+     		    >
+			    
+     		     <ImageView 
+			        android:id="@+id/iv01"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"			       
+			        android:src="@drawable/tema2"			     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv01gone"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/tema22"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig02"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="2"
+       			 app:layout_row="0"
+       			 android:orientation="vertical"
+       			 android:layout_marginRight="2dp"
+       			 android:tag="smiles"
+     		    >
+			     
+     		     <ImageView 
+			        android:id="@+id/iv02"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"			       
+			        android:src="@drawable/tema3"			     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv02gone"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/tema33"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig03"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="3"
+       			 app:layout_row="0"
+       			 android:orientation="vertical"
+       			 android:layout_marginRight="2dp"
+       			 android:tag="cosas"  
+     		    >
+			    
+     		     <ImageView 
+			        android:id="@+id/iv03"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"			       
+			        android:src="@drawable/tema4"			     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv03gone"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/tema44"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig10"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="1"
+       			 app:layout_row="1"
+       			 android:orientation="vertical"
+       			 android:tag="marcas"
+     		    >
+			     
+     		     <ImageView 
+			        android:id="@+id/iv11"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"			       
+			        android:src="@drawable/tema5"			     
+			        android:visibility="gone"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv11gone"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/tema55"
+			        android:visibility="visible"
+			        />
+     		    
+     		</LinearLayout>
+     		<LinearLayout 
+     		     android:id="@+id/linearconfig11"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+        		 app:layout_column="2"
+       			 app:layout_row="1"
+       			 android:orientation="vertical"
+       			 android:tag="objetos"
+     		    >
+			    
+     		     <ImageView 
+			        android:id="@+id/iv12"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"			       
+			        android:src="@drawable/tema6"			     
+			        android:visibility="gone"
+			        android:tag="vistafila2colum1"
+			        
+			        />
+			    <ImageView 
+			        android:id="@+id/iv12gone"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/tema66"
+			        android:visibility="visible"
+			     
+			        />
+     		    
+     		</LinearLayout>     
+ 	</android.support.v7.widget.GridLayout > 	
+ 	</RelativeLayout>
+
+	<RelativeLayout
+	     android:id="@+id/relativemodoclassic3"
+	     android:layout_below="@id/relativemodoclassic2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content" 
+	     android:layout_centerHorizontal="true"
+	     android:layout_marginTop="10dp"
+	     >
+        	    
+       <Button 
+            android:id="@+id/boton_playclasico"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_marginRight="10dp"
+     	    android:text="@string/jugar"
+     	    android:textSize="40sp"
+     	    android:textStyle="bold"     	   
+     	    android:layout_centerVertical="true"
+     	    android:onClick="botonPlay"
+     	    android:background="@drawable/fondo_botontimeattack"
+     	    android:padding="10dp"
+     	  
+     	 />
+     	  	
+     		
+      <RelativeLayout 
+     	    android:layout_toRightOf="@id/boton_playclasico"
+     	   	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content" 
+	     	android:layout_marginLeft="10dp" 	
+     	    >
+     	    <TextView    
+     	        android:id="@+id/textpreviewClasic"
+     	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        	    android:layout_centerHorizontal="true"
+        		android:text="@string/preview"   
+        		android:textStyle="bold"
+        		android:textAppearance="?android:attr/textAppearanceMedium"
+        		android:textColor="#000044" /> 
+     	    
+     	    <ImageView 
+     	        android:layout_below="@id/textpreviewClasic"
+     	   		android:layout_width="wrap_content"
+     	    	android:layout_height="wrap_content"
+     	    	android:layout_centerHorizontal="true"
+     	    	android:id="@+id/imagenpreview"
+     	    	android:src="@drawable/sample11"
+     	    
+     	    />     	         	    
+     	</RelativeLayout>     	    	
+	     
+	 </RelativeLayout>
+
+</RelativeLayout>

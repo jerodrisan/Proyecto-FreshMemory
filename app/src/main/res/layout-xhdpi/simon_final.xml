@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/linearmarcadorsimon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/fondo_timeattack"
+     >
+     
+      <TextView        
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"       
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"     
+        android:textColor="@color/silver"
+        android:text="@string/puntuacion"
+        android:textStyle="bold"
+        android:textSize="40sp"
+      	
+	/>
+       <ImageView    
+        android:id="@+id/imagen_logosuperado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/boton_thumbsup" 
+        />
+       
+       <TextView        
+        android:id="@+id/simonpuntuacion"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"       
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"     
+        android:textColor="@color/silver"        
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:visibility="gone"
+      	
+		/>
+       
+       <Button
+            android:id="@+id/simon_botonok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"           
+            android:gravity="center"
+            android:layout_gravity="center"                        
+            android:text="OK"
+            android:padding="10dp"
+            android:textSize="19sp"
+            android:textStyle="bold"    
+			android:background="@drawable/fondo_botonclassic" 
+			android:layout_marginTop="20dp"
+            android:visibility="gone"
+             />     
+             
+       <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"            
+           
+       >
+         <Button          
+            android:id="@+id/simon_compartir"       
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"     
+            android:text="@string/compartir"           
+            android:textSize="19sp"  
+            android:textStyle="bold"
+            android:drawableTop="@drawable/boton_shareit"
+            android:padding="5dp"
+            android:background="@drawable/fondo_botonclassic"   
+            android:layout_marginRight="20dp"          
+            android:visibility="gone"
+         />
+            
+         <Button 
+          	android:id="@+id/global_scores"
+          	android:layout_width="120dp"
+          	android:layout_height="wrap_content"          	
+          	android:drawableTop="@drawable/boton_leader"
+          	android:text="@string/boton_leaderboards"          	
+         	android:textSize="19sp"
+          	android:padding="5dp"
+          	android:textStyle="bold"
+          	android:background="@drawable/fondo_botonclassic"            
+            android:visibility="gone"
+                  
+          />      
+           
+       </LinearLayout>
+
+     	
+
+</LinearLayout>

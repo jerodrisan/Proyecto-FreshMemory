@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <stroke
+        android:width="3dp" 	
+        android:color="#DD000000"       
+         /> 
+
+	<!-- angulo de la degradacion -->
+    <gradient		
+        android:angle="90"  
+        android:endColor="#CC33FF"
+        android:startColor="#CC33FF" />
+	<padding
+    	android:left="2dp"
+   	 	android:right="2dp"
+     />
+    <corners
+        android:bottomLeftRadius="7dp"
+        android:bottomRightRadius="7dp"
+        android:topLeftRadius="7dp"
+        android:topRightRadius="7dp" />
+    
+
+</shape>

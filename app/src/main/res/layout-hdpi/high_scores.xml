@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/highscores_back"
+	android:gravity="center"
+	android:padding="10dp" >
+
+
+		<TextView
+			android:id="@+id/high_head"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"			
+			android:layout_centerHorizontal="true"			
+			android:text="HIGH SCORES"
+			android:textColor="#ffffffff"
+			android:textSize="22sp"
+			android:textStyle="bold" />
+		
+		<ImageView 
+		    android:id="@+id/boton_derecha_scores"
+		    android:layout_width="28dp"
+		    android:layout_height="28dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_toRightOf="@id/high_head"
+		    android:src="@drawable/boton_rightwhite"
+		    android:visibility="gone"
+		   
+		    
+		    />
+		
+		<ImageView 
+		    android:id="@+id/boton_izquierda_scores"
+		    android:layout_width="28dp"
+		    android:layout_height="28dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_toLeftOf="@id/high_head"
+		    android:src="@drawable/boton_leftwhite"
+		    android:visibility="gone"
+		  
+		    
+		    />
+		
+		<TextView
+			android:id="@+id/timeattack_moderrr"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"		
+			android:layout_below="@id/high_head"	
+			android:layout_centerHorizontal="true"			
+			android:layout_marginBottom="10dp"					
+			android:textColor="#ffffffff"
+			android:textSize="21sp"			
+			android:textStyle="bold" />
+		<LinearLayout 
+		    android:id="@+id/linearhighscores"
+		    android:layout_below="@id/timeattack_moderrr"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    >
+		 
+		     <TextView 
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="@string/puntuacion"
+		        android:textSize="17sp"
+		        android:textStyle="bold"
+		        android:textColor="@color/white"
+		        android:gravity="center"
+		       />
+		      <TextView 
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="@string/fecha"
+		        android:textSize="17sp"
+		        android:textStyle="bold"
+		        android:textColor="@color/white"      
+		        android:gravity="center"
+		        
+		        
+		        />
+		    		    
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/timeattack_high_scores_list"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/linearhighscores"
+			android:layout_centerHorizontal="true"
+			android:gravity="center"
+			android:maxLines = "10"
+			android:scrollbars = "vertical"
+			android:padding="5dp"
+			android:textColor="#ffffffff"
+			android:textSize="17sp"
+			android:textStyle="bold" />
+		<!-- Nota: sobre scrollbar horizontal en textview : 
+		http://stackoverflow.com/questions/14434433/androidtextview-with-vertical-scrolling-text -->
+		
+		<Button 
+	   	 	android:id="@+id/highScores_OK"
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="wrap_content"
+	    	android:layout_below="@id/timeattack_high_scores_list"
+	    	android:layout_centerHorizontal="true"
+			android:gravity="center"
+			android:padding="10dp"
+			android:text="OK"
+			android:textColor="#ffffffff"
+			android:textSize="21sp"
+			android:textStyle="bold"
+			android:onClick="botonOKhighScores"
+			android:background="@color/transparent"
+	    
+	    />
+	
+
+</RelativeLayout>
+
+    
+    
