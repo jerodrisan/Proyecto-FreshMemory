@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class AboutUs extends Activity {
 	
-	//Modified aboutUs
+	//Modified aboutUs 2
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {		
 		super.onCreate(savedInstanceState);
